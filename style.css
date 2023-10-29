@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+.grid {
+    height: 500px;
+    width: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    color: black;
+}
+
+p {
+    display: flex;
+    flex-direction: row;
+}
+
+.grid div {
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+
+    border: 2px solid #ff725e;
+}
+
+.checked {
+    background-color: #A9A9A9; /* Change the background color to a shade of gray */
+    border-color: #696969; /* Change the border color to a darker gray */
+    color: #fff; /* Change the text color to white or another suitable color */
+}
+
+#restart-button {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px; /* Add space between grid and restart button */
+}
+
+#restart-button:hover {
+    background-color: #45a049;
+}
+
+#timer {
+    font-size: 24px;
+    background-color: #ff725e;
+    color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 20px; /* Add space between timer and grid */
+}
